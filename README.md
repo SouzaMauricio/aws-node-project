@@ -1,7 +1,7 @@
 
 # AWS Node Project
 
-This is a basic product for running serverless functions locally using serverless-offiline and docker
+This is a basic product for running serverless functions locally using serverless-offiline and docker.
 
 ## Usage
 
