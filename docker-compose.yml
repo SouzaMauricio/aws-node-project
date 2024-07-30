@@ -1,0 +1,20 @@
+version: "3.1"
+services:
+  aws_node_project:
+    build:
+      dockerfile: ./Dockerfile
+      context: .
+    image: node:20
+    container_name: aws_node_project
+    ports:
+      - "3000:3000"
+    networks:
+      aws_node_project:
+        ipv4_address: 192.168.1.2
+
+networks:
+  aws_node_project:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.1.0/24

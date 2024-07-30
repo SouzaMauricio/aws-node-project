@@ -1,0 +1,17 @@
+service: aws-node-project
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+
+plugins:
+- serverless-offline
+
+custom:
+  serverless-offline:
+    host: 0.0.0.0
+    port: 3000
+
+functions:
+  - ${file(functions/_functions.yml)}

@@ -1,0 +1,13 @@
+{
+  "name": "aws-node-project",
+  "version": "1.0.0",
+  "description": "Project using Node, Serverless and Docker",
+  "scripts": {
+    "start": "sls offline --stage=local --httpPort=3000 --noPrependStageInUrl && export SLS_DEBUG=*"
+  },
+  "author": "Mauricio Souza",
+  "license": "ISC",
+  "dependencies": {
+    "serverless-offline": "^13.6.0"
+  }
+}

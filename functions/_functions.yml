@@ -1,0 +1,6 @@
+ping:
+  handler: functions/ping.handler
+  events:
+    - httpApi:
+        path: /ping
+        method: GET
