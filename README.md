@@ -5,7 +5,7 @@ This is a basic product for running serverless functions locally using serverles
 
 ## Usage
 
-### Running
+### Installing
 
 ```bash
 $ npm i
@@ -13,6 +13,9 @@ $ npm i
 ```bash
 $ docker-compose build
 ```
+
+### Running
+
 ```bash
 $ docker-compose up
 ```
