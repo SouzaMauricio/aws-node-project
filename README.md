@@ -5,6 +5,12 @@ This is a basic product for running serverless functions locally using serverles
 
 ## Usage
 
+### Requirements
+
+    - Node 20.x
+    - Serverless 3.x
+    - Docker
+
 ### Installing
 
 ```bash
